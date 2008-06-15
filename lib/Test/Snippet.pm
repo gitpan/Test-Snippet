@@ -2,7 +2,7 @@ package Test::Snippet;
 use strict;
 use warnings;
 use 5.00800;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 use base qw/Test::Builder::Module/;
 use Text::Diff qw(diff);
 use Data::Dumper;
@@ -63,7 +63,7 @@ sub test_snippet_in_pod {
 1;
 __END__
 
-=for stopwords doctest API
+=for stopwords doctest API FAQ
 
 =encoding utf8
 
@@ -117,6 +117,11 @@ This is very readable and users can run in own console!
 =head1 AUTHOR
 
 Tokuhiro Matsuno E<lt>tokuhirom@gmail.comE<gt>
+
+=head1 THANKS TO
+
+    Tatsuhiko Miyagawa
+    charsbar
 
 =head1 SEE ALSO
 

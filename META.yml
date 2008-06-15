@@ -6,7 +6,7 @@ build_requires:
   Test::More: 0
   YAML: 0
 distribution_type: module
-generated_by: 'Module::Install version 0.73'
+generated_by: 'Module::Install version 0.75'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -20,7 +20,7 @@ requires:
   Devel::REPL: 1.002001
   Exporter: 5.58
   Pod::POM: 0.17
-  Test::Builder: 0
+  Test::Builder: 0.80
+  Text::Diff: 0.35
   perl: 5.8.0
-tests: 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t xt/*.t'
-version: 0.01
+version: 0.02
